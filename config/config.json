@@ -1,0 +1,8 @@
+{
+    "botname": "RexBot",
+    "author": "@_unknownrex",
+    "prefix": ".",
+    "timezone": "Asia/Jakarta",
+    "allowgroupchat": true,
+    "log": true
+}

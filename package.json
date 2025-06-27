@@ -1,0 +1,22 @@
+{
+  "name": "RexBot",
+  "version": "1.0.0",
+  "description": "RexBot by unknownrex",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "wabot"
+  ],
+  "author": "unknownrex",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ffmpeg": "^0.0.4",
+    "fs": "^0.0.1-security",
+    "mime-types": "^3.0.1",
+    "moment-timezone": "^0.5.37",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "github:BenyFilho/whatsapp-web.js#BenyFilho-Fix-Send-Animated-Sticker"
+  }
+}
