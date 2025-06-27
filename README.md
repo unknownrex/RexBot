@@ -1,6 +1,6 @@
 # 🤖 RexBot
 
-**RexBot** is a simple WhatsApp bot built with [`whatsapp-web.js`](https://github.com/pedroslopez/whatsapp-web.js).
+**RexBot** is a simple Node.js WhatsApp bot built with [`whatsapp-web.js`](https://github.com/pedroslopez/whatsapp-web.js).
 
 ---
 
