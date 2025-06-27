@@ -20,9 +20,9 @@
 ### Installation
 
 ```
-git clone https://github.com/unknownrex/rex-bot.git
+git clone https://github.com/unknownrex/RexBot.git
 
-cd rex-bot
+cd RexBot
 
 npm install
 
