@@ -332,9 +332,29 @@ client.on("message", async (message) => {
           {quotedMessageId: message.id._serialized}
         );
       }
+    }
+
+    //==========================================
+    // [dice] Roll a dice
+    //==========================================
+    if (message.body === `${config.prefix}dice`) {
+      const diceResult = Math.floor(Math.random() * 6) + 1; // Angka 1-6
+      const diceEmoji = ['⚀','⚁','⚂','⚃','⚄','⚅'][diceResult - 1];
+
+      if (config.log) console.log(`[🎲][${getCurrentTime()}] ${message.from.replace(/@c\.us|@g\.us/, '').brightYellow} rolled a dice: ${diceResult}`);
+
+      const response = 
+`╭─❏ 🎲 *Dice Rolled!*
+│
+│ You got: ${diceResult} ${diceEmoji}
+╰────────────❏`;
+
+      client.sendMessage(message.from, response, { quotedMessageId: message.id._serialized });
+    }
+      
 
       // Read chat
-    } else {
+    else {
       client.getChatById(message.id.remote).then(async (chat) => {
         await chat.sendSeen();
       });
