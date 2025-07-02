@@ -12,6 +12,7 @@
 - 📷 Fetch profile pictures of mentioned users
 - 📊 View system status (CPU, RAM, uptime, etc.)
 - 🏓 Ping bot latency
+- 🎲 Roll a dice
 
 ---
 
