@@ -77,6 +77,9 @@ client.on("message", async (message) => {
 │ 📷 *${config.prefix}pp @user*
 │   ↳ _Fetch profile picture of mentioned user_
 │
+│ 🎲 *${config.prefix}dice*
+│   ↳ _Roll a dice!_
+│
 │ 📊 *${config.prefix}status*
 │   ↳ _Fetch system status_
 │
@@ -345,7 +348,6 @@ client.on("message", async (message) => {
 
       const response = 
 `╭─❏ 🎲 *Dice Rolled!*
-│
 │ You got: ${diceResult} ${diceEmoji}
 ╰────────────❏`;
 
